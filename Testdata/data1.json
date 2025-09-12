@@ -1,0 +1,16 @@
+{
+    "status": "passed",
+    "steps": [
+        {
+        "name": "test step",
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "startTime": 1717053038476,
+        "endTime": 1717053041233
+        }
+    ],
+    "attachments": [],
+    "startTime": 1717053038475,
+    "endTime": 1717053041234
+}
