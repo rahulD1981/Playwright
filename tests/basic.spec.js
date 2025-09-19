@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import path from 'path';
 
-test.skip('Validate title of the page', async ({ page }) => {
+test('Validate title of the page', async ({ page }) => {
     await page.goto("https://www.demoblaze.com/index.html");
     console.log(page.title());
     expect(page).toHaveTitle('STORE');
