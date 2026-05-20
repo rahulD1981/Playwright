@@ -4,7 +4,7 @@ import path from 'path';
 test.skip('Validate title of the page', async ({ page }) => {
     await page.goto("https://www.demoblaze.com/index.html");
     console.log(page.title());
-    expect(page).toHaveTitle('STORE');
+    await expect(page).toHaveTitle('STORE');
 })
 test.skip('Enter data in text box diffrent ways', async ({ page }) => {
     await page.goto("https://www.demoblaze.com/index.html");
